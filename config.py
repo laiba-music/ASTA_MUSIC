@@ -105,7 +105,6 @@ def time_to_seconds(time: str) -> int:
 
 # Calculate total duration limit in seconds
 DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
-
 # Validate URLs
 if SUPPORT_CHANNEL and not re.match(r"(?:http|https)://", SUPPORT_CHANNEL):
     raise SystemExit(
