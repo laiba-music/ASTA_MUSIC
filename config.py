@@ -40,8 +40,8 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+Et80AINk85c4NzM1")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+9Vd00hOXqwU4OGM1")
 
 # YT-API Get from @AmShashank on tg
-YOUR_API_KEY = getenv("YOUR_API_KEY", "30DxNexGenBots2322b5")
-YOUR_API_URL = getenv("YOUR_API_URL", "https://pytdbotapi.thequickearn.xyz")
+YOUR_API_KEY = getenv("YOUR_API_KEY", "")
+YOUR_API_URL = getenv("YOUR_API_URL", "")
 
 API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
