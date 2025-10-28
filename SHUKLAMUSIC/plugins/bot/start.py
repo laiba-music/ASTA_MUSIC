@@ -113,22 +113,33 @@ async def start_pm(client, message: Message, _):
                 )
 
     else:
-        # ⚡ Super Fast Animated Start
+        # ⚡ Super Smooth & Fast Animated Start
         baby = await message.reply_text("**__ᴅɪηɢ ᴅᴏηɢ.🥀__**")
+
         animation = [
             "ᴅɪηɢ ᴅᴏηɢ..🥀",
             "ᴅɪηɢ ᴅᴏηɢ...🥀",
+            "ᴅɪηɢ ᴅᴏηɢ....🥀",
+            "sᴛᴧʀᴛɪηɢ.❤️‍🔥",
+            "sᴛᴧʀᴛɪηɢ..❤️‍🔥",
             "sᴛᴧʀᴛɪηɢ...❤️‍🔥",
-            "ʙσᴛ sᴛᴧʀᴛєᴅ...💤",
+            "ʙσᴛ sᴛᴧʀᴛєᴅ.💤",
+            "ʙσᴛ sᴛᴧʀᴛєᴅ..💤",
+            "ʙσᴛ sᴛᴧʀᴛєᴅ...💤"
         ]
 
-        # fast edit (0.2s interval)
         for text in animation:
-            await asyncio.sleep(0.2)
-            await baby.edit_text(f"**__{text}__**")
+            await asyncio.sleep(0.3)
+            try:
+                await baby.edit_text(f"**__{text}__**")
+            except Exception:
+                pass
 
-        await asyncio.sleep(0.1)
-        await baby.delete()
+        await asyncio.sleep(0.2)
+        try:
+            await baby.delete()
+        except:
+            pass
 
         # 📊 Stats + Info
         out = private_panel(_)
