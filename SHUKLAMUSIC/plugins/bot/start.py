@@ -114,7 +114,7 @@ async def start_pm(client, message: Message, _):
                 )
 
     else:
-        # ✨ Animated Start Section
+        # ✨ Fast Ding-Dong Animation
         baby = await message.reply_text("**__ᴅɪηɢ ᴅᴏηɢ.🥀__**")
         animation = [
             "ᴅɪηɢ ᴅᴏηɢ..🥀",
@@ -129,12 +129,14 @@ async def start_pm(client, message: Message, _):
             "ʙσᴛ sᴛᴧʀᴛєᴅ...💤",
             "ʙσᴛ sᴛᴧʀᴛєᴅ....💤",
         ]
+        # ⚙️ Speed control (0.2 = fast, 0.3 = medium)
         for text in animation:
-            await asyncio.sleep(0.4)
+            await asyncio.sleep(0.2)
             await baby.edit_text(f"**__{text}__**")
+        await asyncio.sleep(0.1)
         await baby.delete()
 
-        # 📊 Stats and Info Section
+        # 📊 Stats Section
         out = private_panel(_)
         served_chats = len(await get_served_chats())
         served_users = len(await get_served_users())
