@@ -28,10 +28,25 @@ from strings import get_string
 from config import BANNED_USERS
 
 BADNAAM_PIC = [
-    "https://files.catbox.moe/kq8gwp.jpg",
-    "https://files.catbox.moe/tyijbe.jpg",
-    "https://files.catbox.moe/6lywo3.jpg",
-    "https://files.catbox.moe/c4jv3u.jpg",
+    "https://files.catbox.moe/4q7c4w.jpg",
+    "https://files.catbox.moe/90z6sq.jpg",
+    "https://files.catbox.moe/rdfi4z.jpg",
+    "https://files.catbox.moe/6f9rgp.jpg",
+    "https://files.catbox.moe/99wj12.jpg",
+    "https://files.catbox.moe/ezpnd2.jpg",
+    "https://files.catbox.moe/e7q55f.jpg",
+    "https://files.catbox.moe/qyfsi7.jpg",
+    "https://files.catbox.moe/kbke7s.jpg",
+    "https://files.catbox.moe/7icvpu.jpg",
+    "https://files.catbox.moe/4hd77z.jpg",
+    "https://files.catbox.moe/yn7wje.jpg",
+    "https://files.catbox.moe/kifsir.jpg",
+    "https://files.catbox.moe/zi21kc.jpg",
+    "https://files.catbox.moe/z0gh23.jpg",
+    "https://files.catbox.moe/f2s4ws.jpg",
+    "https://files.catbox.moe/26nzoq.jpg",
+    "https://files.catbox.moe/fu6jk3.jpg",
+    "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg",
 ]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
