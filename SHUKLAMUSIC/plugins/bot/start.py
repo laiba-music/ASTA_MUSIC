@@ -113,7 +113,7 @@ async def start_pm(client, message: Message, _):
                 )
 
     else:
-        # ⚡ Super Smooth & Fast Animated Start
+        # ⚡ FINAL SUPER FAST + SMOOTH STARTUP ANIMATION
         baby = await message.reply_text("**__ᴅɪηɢ ᴅᴏηɢ.🥀__**")
 
         animation = [
@@ -129,23 +129,24 @@ async def start_pm(client, message: Message, _):
         ]
 
         for text in animation:
-            await asyncio.sleep(0.3)
+            await asyncio.sleep(0.18)  # ⚡ perfectly tuned speed
             try:
                 await baby.edit_text(f"**__{text}__**")
-            except Exception:
+            except:
                 pass
 
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         try:
             await baby.delete()
         except:
             pass
 
-        # 📊 Stats + Info
+        # 📊 System Stats + Bot Info
         out = private_panel(_)
         served_chats = len(await get_served_chats())
         served_users = len(await get_served_users())
         UP, CPU, RAM, DISK = await bot_sys_stats()
+
         await message.reply_photo(
             random.choice(BADNAAM_PIC),
             caption=_["start_2"].format(
