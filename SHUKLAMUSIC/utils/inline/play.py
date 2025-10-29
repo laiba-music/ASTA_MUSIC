@@ -20,7 +20,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
         [
             InlineKeyboardButton(
                 text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
-                url="https://t.me/ilmamusicbot?startgroup=true",
+                url="https://t.me/Queen_XMusic_Bot?startgroup=true",
             )
         ],
         [
@@ -37,7 +37,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
-                url="https://t.me/ilmamusicbot?startgroup=true",
+                url="https://t.me/Queen_XMusic_Bot?startgroup=true",
             )
         ],
         [
@@ -54,7 +54,7 @@ def stream_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
-                url="https://t.me/ilmamusicbot?startgroup=true",
+                url="https://t.me/Queen_XMusic_Bot?startgroup=true",
             )
         ],
         [
@@ -81,7 +81,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
-                url="https://t.me/ilmamusicbot?startgroup=true",
+                url="https://t.me/Queen_XMusic_Bot?startgroup=true",
             )
         ],
         [
@@ -104,7 +104,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         [
             InlineKeyboardButton(
                 text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
-                url="https://t.me/ilmamusicbot?startgroup=true",
+                url="https://t.me/Queen_XMusic_Bot?startgroup=true",
             )
         ],
         [
