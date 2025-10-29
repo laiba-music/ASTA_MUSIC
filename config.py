@@ -86,18 +86,18 @@ confirmer = {}
 DEBUG_IGNORE_LOG =True
 
 # Image URLs
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b61227af05544deb76a34.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/7bb907999ea7156227283.jpg")
-PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/fu6jk3.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/90z6sq.jpg")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/4q7c4w.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/kbke7s.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ezpnd2.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/kifsir.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/4hd77z.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/z0gh23.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/26nzoq.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/fu6jk3.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/90z6sq.jpg"
 
 # Helper function
 def time_to_seconds(time: str) -> int:
