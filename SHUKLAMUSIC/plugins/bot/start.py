@@ -113,13 +113,12 @@ async def start_pm(client, message: Message, _):
                 )
 
     else:
-        # ⚡ FINAL SUPER FAST + SMOOTH STARTUP ANIMATION
+        # ⚡ SUPER FAST + SMOOTH STARTUP ANIMATION
         baby = await message.reply_text("**__ᴅɪηɢ ᴅᴏηɢ.🥀__**")
 
         animation = [
             "ᴅɪηɢ ᴅᴏηɢ..🥀",
             "ᴅɪηɢ ᴅᴏηɢ...🥀",
-            "ᴅɪηɢ ᴅᴏηɢ....🥀",
             "sᴛᴧʀᴛɪηɢ.❤️‍🔥",
             "sᴛᴧʀᴛɪηɢ..❤️‍🔥",
             "sᴛᴧʀᴛɪηɢ...❤️‍🔥",
@@ -129,16 +128,16 @@ async def start_pm(client, message: Message, _):
         ]
 
         for text in animation:
-            await asyncio.sleep(0.18)  # ⚡ perfectly tuned speed
+            await asyncio.sleep(0.12)  # tuned for smooth speed (was 0.18)
             try:
                 await baby.edit_text(f"**__{text}__**")
-            except:
+            except Exception:
                 pass
 
-        await asyncio.sleep(0.1)
+        await asyncio.sleep(0.05)
         try:
             await baby.delete()
-        except:
+        except Exception:
             pass
 
         # 📊 System Stats + Bot Info
@@ -194,7 +193,7 @@ async def welcome(client, message: Message):
             if await is_banned_user(member.id):
                 try:
                     await message.chat.ban_member(member.id)
-                except:
+                except Exception:
                     pass
 
             if member.id == app.id:
