@@ -19,15 +19,15 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="➕ ADD ME IN YOUR GROUP ➕",
+                text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
                 url="https://t.me/ilmamusicbot?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text="• OWNER •", url="https://t.me/icxasta"),
-            InlineKeyboardButton(text="• SUPPORT •", url="https://t.me/ixasta1"),
+            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/icxasta"),
+            InlineKeyboardButton(text="• sυᴘᴘσʀᴛ •", url="https://t.me/ixasta1"),
         ],
-        [InlineKeyboardButton(text="⇆ CLOSE ⇆", callback_data="close")],
+        [InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="close")],
     ]
     return buttons
 
@@ -36,15 +36,15 @@ def stream_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text="➕ ADD ME IN YOUR GROUP ➕",
+                text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
                 url="https://t.me/ilmamusicbot?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text="• OWNER •", url="https://t.me/icxasta"),
-            InlineKeyboardButton(text="• SUPPORT •", url="https://t.me/ixasta1"),
+            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/icxasta"),
+            InlineKeyboardButton(text="• sυᴘᴘσʀᴛ •", url="https://t.me/ixasta1"),
         ],
-        [InlineKeyboardButton(text="⇆ CLOSE ⇆", callback_data="close")],
+        [InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="close")],
     ]
     return buttons
 
@@ -53,15 +53,15 @@ def stream_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="➕ ADD ME IN YOUR GROUP ➕",
+                text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
                 url="https://t.me/ilmamusicbot?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text="• OWNER •", url="https://t.me/icxasta"),
-            InlineKeyboardButton(text="• SUPPORT •", url="https://t.me/ixasta1"),
+            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/icxasta"),
+            InlineKeyboardButton(text="• sυᴘᴘσʀᴛ •", url="https://t.me/ixasta1"),
         ],
-        [InlineKeyboardButton(text="⇆ CLOSE ⇆", callback_data="close")],
+        [InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="close")],
     ]
     return buttons
 
@@ -80,15 +80,15 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="➕ ADD ME IN YOUR GROUP ➕",
+                text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
                 url="https://t.me/ilmamusicbot?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text="• OWNER •", url="https://t.me/icxasta"),
-            InlineKeyboardButton(text="• SUPPORT •", url="https://t.me/ixasta1"),
+            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/icxasta"),
+            InlineKeyboardButton(text="• sυᴘᴘσʀᴛ •", url="https://t.me/ixasta1"),
         ],
-        [InlineKeyboardButton(text="⇆ CLOSE ⇆", callback_data="close")],
+        [InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="close")],
     ]
     return buttons
 
@@ -103,15 +103,15 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="➕ ADD ME IN YOUR GROUP ➕",
+                text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
                 url="https://t.me/ilmamusicbot?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text="• OWNER •", url="https://t.me/icxasta"),
-            InlineKeyboardButton(text="• SUPPORT •", url="https://t.me/ixasta1"),
+            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/icxasta"),
+            InlineKeyboardButton(text="• sυᴘᴘσʀᴛ •", url="https://t.me/ixasta1"),
         ],
-        [InlineKeyboardButton(text="⇆ CLOSE ⇆", callback_data="close")],
+        [InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="close")],
     ]
     return buttons
 
@@ -134,7 +134,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
                 text="◁",
                 callback_data=f"slider B|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
-            InlineKeyboardButton(text="⇆ CLOSE ⇆", callback_data="close"),
+            InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="close"),
             InlineKeyboardButton(
                 text="▷",
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
@@ -142,13 +142,13 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="➕ ADD ME IN YOUR GROUP ➕",
+                text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
                 url="https://t.me/ilmamusicbot?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text="• OWNER •", url="https://t.me/icxasta"),
-            InlineKeyboardButton(text="• SUPPORT •", url="https://t.me/ixasta1"),
+            InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/icxasta"),
+            InlineKeyboardButton(text="• sυᴘᴘσʀᴛ •", url="https://t.me/ixasta1"),
         ],
     ]
     return buttons
